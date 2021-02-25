@@ -1,0 +1,118 @@
+img {
+  width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  font-family: "Abril Fatface";
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+}
+
+.fejlécszöveg {
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+  margin-left: 325px;
+  
+}
+
+#name {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+#Anakin {
+  font-size: 55px;
+  margin-top: 0;
+}
+
+#bevezetés {
+ font-family: "Josefin Sans";
+ font-size: 14px;
+ font-weight: 450; 
+ line-height: 1.5em;
+}
+
+section {
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+}
+
+.achievements {
+  font-family: "Josefin Sans";
+  font-size: 13px;
+  font-weight: 350;
+}
+
+.felsorolás {
+  font-family: "Josefin Sans";
+  font-size: 11.5px;
+  font-weight: 350;
+  line-height: 1.5em;
+}
+
+.feliratok {
+  font-family: "Merriweather";
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-family: "Josefin Sans";
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.nagybetűs {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 40px 0;
+}
+
+#üres {
+  width: 600px;
+  height: 3px;
+  background-color: #444444;
+}
+
+#felsőüres {
+  width: 1200px;
+  height: 4px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.idézet {
+  background-color: #444444;
+  font-family: "Abril Fatface";
+  color: white;
+  font-size: 37px;
+  padding: 40px 50px;
+  width: 550px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.idézet::before {
+  content: "“";
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: -29px;
+}
